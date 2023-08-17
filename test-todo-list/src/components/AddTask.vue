@@ -1,7 +1,8 @@
 <template>
   <div class="addTask">
-    <input v-model="newTaskText" placeholder="Enter task" class="input" maxlength="100" />
-    <button @click="addTask">Add</button>
+    <h1>TODO LIST</h1>
+    <input v-model="newTaskText" placeholder="Введите задачу" class="input" maxlength="100" />
+    <button @click="addTask">Добавить</button>
   </div>
 </template>
 
@@ -34,6 +35,6 @@ export default {
     margin: 15px;
     width: 300px;
     height: 30px;
-    font-size: 20px;
+    font-size: 24px;
   }
 </style>
